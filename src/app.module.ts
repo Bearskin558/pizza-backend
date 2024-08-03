@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common'
 import { PizzaModule } from './pizza/pizza.module'
-import { ToppingsModule } from './toppings/toppings.module'
+import { IngredientsModule } from './ingredients/ingredients.module'
 
 @Module({
-  imports: [PizzaModule, ToppingsModule],
+  imports: [PizzaModule, IngredientsModule],
 })
 export class AppModule {}
